@@ -9,7 +9,7 @@ Through Pytorch-transformers we can use Bert’s pre-trained language model for 
 
 ## What is the purpose of this project?
 
-In this project, I recognized verbs in sentences and then other verbs were predicted by Bert, which they could be replaced in that position of sentences. I created 6 levels for prediction and Chose best option to show in site.
+In this project, I recognized verbs in sentences and then other verbs were predicted by Bert, which they could be replaced in that position of sentences. I created 6 levels for prediction and Chose best options for selecting to show in site.
 
 e.g.
 
