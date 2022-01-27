@@ -1,0 +1,49 @@
+{
+    "sentences": [
+        {
+            "text": "Increased content consumption on mobile devices may further drive distributors such as cable and telecom operators to release over-the-top mobile video offerings, while shifting ad budgets to the Internet. Smartphone and tablet viewing reached 33% of total online video plays in the fourth quarter,  to Ooyala, doubling from 17% in 4Q13. A number of content distributors have responded to this trend, with Verizon announcing a mobile video service to debut this summer.",
+            "correct": "according",
+            "pos": 299,
+            "words": [
+                "according",
+                "compared",
+                "similarly",
+                "similar"
+            ]
+        },
+        {
+            "text": "National Australia Bank's earnings prospects will  on an ongoing strength of business and corporate banking, which jointly contributed 65% of its 1H pretax profit. These units showed stable net interest margins, offsetting a weakness in consumer banking. Market income also supports its revenue, as market volatility fuels demand for risk management and treasury business. Reduced credit costs bode well for its earnings too. Separately, NAB and peers' profit will suffer from the proposed 6-bp levy on liabilities.",
+            "correct": "rely",
+            "pos": 50,
+            "words": [
+                "depend",
+                "rest",
+                "improve",
+                "rely"
+            ]
+        },
+        {
+            "text": "The success of TransCanada's $15 billion claim under the North American Free Trade Agreement hinges on the company showing the pipeline's denial by the U.S.  from nationality-based discrimination. A three-member NAFTA panel may never get a chance to resolve what would be a years-long arbitration process, particularly if a Republican becomes president and overturns the denial. Most NAFTA disputes settle for an average 2 cents on the dollar. Countries win most of the remaining proceedings that don't settle.",
+            "correct": "resulted",
+            "pos": 157,
+            "words": [
+                "focused",
+                "centered",
+                "relied",
+                "resulted"
+            ]
+        },
+        {
+            "text": "German carmakers may continue to lead factory utilization in China this year. Volkswagen, including Audi, ran at full capacity last year as production fell 3%. It can probably   plant usage rate high if a tax cut boosts small-engine car sales, which comprise 76% of its shipments in China. Yet even the car brand that's among China's two most preferred is likely to have too much capacity after 2017. Mercedes sales have been growing fast enough to match its capacity increases.",
+            "correct": "keep",
+            "pos": 178,
+            "words": [
+                "make",
+                "set",
+                "keep",
+                "run",
+                "put"
+            ]
+        }
+    ]
+}
