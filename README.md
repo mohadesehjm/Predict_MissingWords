@@ -11,6 +11,10 @@ Through Pytorch-transformers we can use Bert’s pre-trained language model for 
 
 In this project, I recognized verbs in sentences and then other verbs were predicted by Bert, which they could be replaced in that position of sentences. I created 6 levels for prediction and Chose best option to show in site.
 
+e.g.
+
+<img width="1626" alt="Screen Shot 2022-01-27 at 4 46 11 PM" src="https://user-images.githubusercontent.com/38848389/151367185-f7814694-88e6-4740-844b-9ac8da03e9bb.png">
+
 
 
 ### Masked-Language Modeling With BERT
