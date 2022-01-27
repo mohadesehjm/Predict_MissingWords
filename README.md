@@ -9,6 +9,12 @@ Through Pytorch-transformers we can use Bert’s pre-trained language model for 
 
 ## What is the purpose of this project?
 
-In this project, two ways were implemented and we figure out almost same result for using directly bert model and finetuned language model because our dataset was written in English.
+In this project, I recognized verbs in sentences and then other verbs were predicted by Bert, which they could be replaced in that position of sentences. I created 6 levels for prediction and Chose best option to show in site.
 
-finally, if our data is different than the data used for pretraining, the results would not be that satisfactory. Consider for example if we have a mix of Persian and English language data and we are using a pre-trained model trained on Wikipedia, it would lead to bad results. In that scenario, we need to fine-tune our language model. But, if we have English dataset we do not need finetune our model.
+
+
+### Masked-Language Modeling With BERT
+
+Two ways were implemented by Bert and we figure out almost same result for using directly bert model and finetuned language model because our dataset was written in English.
+
+If our data is different than the data used for pretraining, the results would not be that satisfactory. Consider for example if we have a mix of Persian and English language data and we are using a pre-trained model trained on Wikipedia, it would lead to bad results. In that scenario, we need to fine-tune our language model. But, if we have English dataset we do not need finetune our model.
