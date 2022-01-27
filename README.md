@@ -13,7 +13,7 @@ In this project, I recognized verbs in sentences and then other verbs were predi
 
 e.g.
 
-<img width="1626" alt="Screen Shot 2022-01-27 at 4 46 11 PM" src="https://user-images.githubusercontent.com/38848389/151367185-f7814694-88e6-4740-844b-9ac8da03e9bb.png">
+![sample](https://user-images.githubusercontent.com/38848389/151368278-3095933e-628f-4d90-bad0-20c960adbc98.jpg)
 
 
 
