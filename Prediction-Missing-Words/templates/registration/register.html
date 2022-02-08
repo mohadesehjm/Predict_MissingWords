@@ -4,7 +4,7 @@
     <div class="container py-5">
         <h1 class="h1">Register</h1>
         <form class="login" method="POST">
-{#            {% csrf_token %}#}
+            {% csrf_token %}
 {#            {{ register_form }}#}
 
             <div class="two-column">
@@ -27,21 +27,6 @@
                 <div> {{ register_form.password2 }}</div>
 
             </div>
-{#            <span class="p">Username:</span>#}
-{#            {{ register_form.username }}#}
-{#            <br>#}
-{#            <br>#}
-{#            <span class="p">Email:</span>#}
-{#            {{ register_form.email }}#}
-{#            <br>#}
-{#            <br>#}
-{#            <span class="p">Password:</span>#}
-{#            {{ register_form.password1 }}#}
-{#            <br>#}
-{#            <br>#}
-{#            <span class="p">Password confirmation:</span>#}
-{#            {{ register_form.password2 }}#}
-{#            <p>Enter the same password as before, for verification.</p>#}
             <button class="button" type="submit">Register</button>
         </form>
         <p class="text-center">If you already have an account, <a href="{% url 'login' %}">login</a> instead.</p>
