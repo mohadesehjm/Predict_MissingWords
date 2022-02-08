@@ -18,10 +18,10 @@
     cursor: pointer;
 }
 .sel-correct{
-    background-color: #52ab98;
+    background-color: #008000;
 }
 .sel-NotCorrect{
-    background-color: #c65032;
+    background-color: #FF0000;
 }
 
 .sentence{
