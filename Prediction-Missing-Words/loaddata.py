@@ -8,22 +8,6 @@ django.setup()
 from questions.models import Sentence, Word, Blank
 
 
-# def load_data():
-#     with open('sample.json') as f:
-#         data = json.load(f)
-#         for ob in data["sentences"]:
-#             s = Sentence.objects.create(
-#                 text=ob['text'],
-#                 word_position=ob['pos'],
-#                 correct_answer=ob['correct']
-#             )
-#             for word in ob["words"]:
-#                 Word.objects.create(
-#                     text=word,
-#                     sentence=s
-#                 )
-
-
 def load_data():
     with open('input.json') as f:
         data = json.load(f)
