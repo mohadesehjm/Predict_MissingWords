@@ -3,59 +3,95 @@
 {% block content %}
     <form method="post">
         {% csrf_token %}
+    <div class="two-column">
+        <div class="chooseLevel">
+          <section class="demo">
+            <div class="box">
+
+              <h3>choose your level</h3>
+              <p>
+                <label for="Basic">
+                  <input id="Basic" name="yaydio" type="radio" value="Basic" onchange="checkvalue('Basic')" />
+                  <span>Basic level</span>
+                </label>
+              </p>
+              <p>
+                <label for="Intermediate">
+                  <input id="Intermediate" name="yaydio" type="radio" value="Intermediate" onchange="checkvalue('Intermediate')" />
+                  <span>Intermediate level</span>
+                </label>
+              </p>
+              <p>
+                <label for="Advanced">
+                  <input id="Advanced" name="yaydio" type="radio" value="Advanced" onchange="checkvalue('Advanced')"  />
+                  <span>Advanced level</span>
+                </label>
+              </p>
+            </div>
+          </section>
+        </div>
+
         <div>
             {% for sentence in sentences %}
                 <div class="question-wrapper">
-                    <p class="sentence">{{sentence.first_half}}
-{#                   Has correct answer     #}
-                     {% if sentence.answer and sentence.is_correct %}
-                         <select class="select-default sel-correct" name="sentence-{{sentence.id}}">
-                            {% if not sentence.answer %}
-                                <option value="" selected disabled hidden>Choose here</option>
-                            {% endif %}
-                            {% for ans in sentence.choices %}
-                                {% if sentence.answer and ans.id == sentence.answer.word.id %}
-                                    <option value="answer-{{ans.id}}" selected>{{ans.word}}</option>
-                                {% else %}
-                                    <option class="option" value="answer-{{ans.id}}">{{ans.word}}</option>
+                   {% for blank in sentence.blanks %}
+                        <span class="sentence">{{blank.half}}</span>
+    {#                   Has correct answer     #}
+                         {% if blank.answer and blank.is_correct %}
+                             <select class="select-default sel-correct" name="sentence-{{blank.id}}">
+                                {% if not blank.answer %}
+                                    <option value="" selected disabled hidden>Choose here</option>
                                 {% endif %}
-                            {% endfor %}
-                        </select>
-{#                  Not correct answer      #}
-                    {% elif sentence.answer %}
-                         <select class="select-default sel-NotCorrect" name="sentence-{{sentence.id}}">
-                            {% if not sentence.answer %}
-                                <option value="" selected disabled hidden>Choose here</option>
-                            {% endif %}
-                            {% for ans in sentence.choices %}
-                                {% if sentence.answer and ans.id == sentence.answer.word.id %}
-                                    <option value="answer-{{ans.id}}" selected>{{ans.word}}</option>
-                                {% else %}
-                                    <option class="option" value="answer-{{ans.id}}">{{ans.word}}</option>
+                                {% for ans in blank.choices %}
+                                    {% if blank.answer and ans.id == blank.answer.word.id %}
+                                        <option value="answer-{{ans.id}}" selected>{{ans.word}}</option>
+                                    {% else %}
+                                        <option class="option" value="answer-{{ans.id}}">{{ans.word}}</option>
+                                    {% endif %}
+                                {% endfor %}
+                            </select>
+{#                      Not correct answer      #}
+                        {% elif blank.answer %}
+                             <select class="select-default sel-NotCorrect" name="sentence-{{blank.id}}">
+                                {% if not blank.answer %}
+                                    <option value="" selected disabled hidden>Choose here</option>
                                 {% endif %}
-                            {% endfor %}
-                         </select>
-{#                  No answer  #}
-                    {% else %}
-                         <select class="select-default" name="sentence-{{sentence.id}}">
-                            {% if not sentence.answer %}
-                                <option value="" selected disabled hidden>Choose here</option>
-                            {% endif %}
-                            {% for ans in sentence.choices %}
-                                {% if sentence.answer and ans.id == sentence.answer.word.id %}
-                                    <option value="answer-{{ans.id}}" selected>{{ans.word}}</option>
-                                {% else %}
-                                    <option class="option" value="answer-{{ans.id}}">{{ans.word}}</option>
+                                {% for ans in blank.choices %}
+                                    {% if blank.answer and ans.id == blank.answer.word.id %}
+                                        <option value="answer-{{ans.id}}" selected>{{ans.word}}</option>
+                                    {% else %}
+                                        <option class="option" value="answer-{{ans.id}}">{{ans.word}}</option>
+                                    {% endif %}
+                                {% endfor %}
+                             </select>
+{#                      No answer  #}
+                        {% else %}
+                             <select class="select-default" name="sentence-{{blank.id}}">
+                                {% if not blank.answer %}
+                                    <option value="" selected disabled hidden>Choose here</option>
                                 {% endif %}
-                            {% endfor %}
-                        </select>
-                    {% endif %}
-                    {{sentence.second_half}}
-                    </p>
+                                {% for ans in blank.choices %}
+                                    {% if blank.answer and ans.id == blank.answer.word.id %}
+                                        <option value="answer-{{ans.id}}" selected>{{ans.word}}</option>
+                                    {% else %}
+                                        <option class="option" value="answer-{{ans.id}}">{{ans.word}}</option>
+                                    {% endif %}
+                                {% endfor %}
+                            </select>
+                        {% endif %}
+{#                        {{blank.second_half}}#}
+{#                        </p>#}
+                   {% endfor %}
+                    <span>{{sentence.last_half}}</span>
 
                 </div>
             {% endfor %}
         </div>
+    </div>
         <button class= "button button-index" type="submit">Submit</button>
     </form>
 {% endblock content %}
+
+{#
+window.location.href = "https://google.com"
+#}

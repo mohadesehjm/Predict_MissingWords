@@ -2,24 +2,61 @@
     "sentences": [
         {
             "text": "National Australia Bank's earnings prospects will rely on an ongoing strength of business and corporate banking, which jointly contributed 65% of its 1H pretax profit. These units showed stable net interest margins, offsetting a weakness in consumer banking. Market income also supports its revenue, as market volatility fuels demand for risk management and treasury business. Reduced credit costs bode well for its earnings too. Separately, NAB and peers' profit will suffer from the proposed 6-bp levy on liabilities.",
-            "correct": "rely",
-            "pos": 50,
-            "words": [
+            "level": "Intermediate",
+            "blank": [
+                {
+                "correct": "rely",
+                "pos": 50,
+                "words": [
                 "rely",
                 "depend",
                 "rest",
                 "improve"
+                ]
+                },
+                {
+                "correct": "showed",
+                "pos": 180,
+                "words": [
+                    "yield",
+                    "had",
+                    "support",
+                    "showed"
+                ]
+                }
+            ]
+
+        },
+        {
+            "text": "The success of TransCanada's $15 billion claim under the North American Free Trade Agreement hinges on the company showing the pipeline's denial by the U.S. resulted from nationality-based discrimination. A three-member NAFTA panel may never get a chance to resolve what would be a years-long arbitration process, particularly if a Republican becomes president and overturns the denial. Most NAFTA disputes settle for an average 2 cents on the dollar. Countries win most of the remaining proceedings that don't settle.",
+            "level": "Advanced",
+            "blank": [
+                {
+                    "correct": "hinges",
+                    "pos": 93,
+                    "words": [
+                        "hinges",
+                        "focused",
+                        "centered",
+                        "relied"
+                    ]
+                }
             ]
         },
         {
             "text": "The success of TransCanada's $15 billion claim under the North American Free Trade Agreement hinges on the company showing the pipeline's denial by the U.S. resulted from nationality-based discrimination. A three-member NAFTA panel may never get a chance to resolve what would be a years-long arbitration process, particularly if a Republican becomes president and overturns the denial. Most NAFTA disputes settle for an average 2 cents on the dollar. Countries win most of the remaining proceedings that don't settle.",
-            "correct": "hinges",
-            "pos": 93,
-            "words": [
-                "hinges",
-                "focused",
-                "centered",
-                "relied"
+            "level": "Basic",
+            "blank": [
+                {
+                    "correct": "hinges",
+                    "pos": 93,
+                    "words": [
+                        "hinges",
+                        "focused",
+                        "centered",
+                        "relied"
+                    ]
+                }
             ]
         }
     ]
