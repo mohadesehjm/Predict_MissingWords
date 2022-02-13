@@ -15,12 +15,8 @@ def load_data():
             s = Sentence.objects.create(
                 text = ob['text'],
                 level = ob['level'],
-                # word_position=ob['pos'],
-                # correct_answer=ob['correct']
             )
             for blank in ob['blank']:
-                # print(blank)
-                # print("words ",blank["words"])
                 b = Blank.objects.create(
                     correct_answer= blank['correct'],
                     word_position= blank['pos'],
@@ -31,7 +27,6 @@ def load_data():
                         text=word,
                         blank = b
                     )
-
 
 
 if __name__ == '__main__':

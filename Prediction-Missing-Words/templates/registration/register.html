@@ -7,22 +7,22 @@
             {% csrf_token %}
 {#            {{ register_form }}#}
 
-            <div class="two-column">
+            <div class="two-column_">
                 <span>Username:</span>
                 <div> {{ register_form.username }} </div>
 
             </div>
-            <div class="two-column">
+            <div class="two-column_">
                 <span class="text">Email:</span>
                 <div> {{ register_form.email }} </div>
 
             </div>
-             <div class="two-column">
+             <div class="two-column_">
                 <span>Password:</span>
                 <div>{{ register_form.password1 }}</div>
 
             </div>
-            <div class="two-column">
+            <div class="two-column_">
                 <span>Password confirmation:</span>
                 <div> {{ register_form.password2 }}</div>
 

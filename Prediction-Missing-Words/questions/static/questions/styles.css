@@ -17,7 +17,7 @@
     background-color: #2b6777;
     user-select: none;
     color: black;
-    margin-top: 2vw;
+    /*margin-top: 2vw;*/
     width: 7vw;
     height: 2vw;
     cursor: pointer;
@@ -30,7 +30,7 @@
 }
 
 .sentence{
-    padding: 2vw;
+    /*padding: 2vw;*/
 }
 
 .option{
@@ -81,6 +81,17 @@ h3 {
     display: flex;
 	justify-content: space-between;
     flex-direction: row-reverse;
+    padding: 1vw;
+    text-align: center;
+    margin-top:1vw;
+}
+.two-column_{
+    /*border: 1px solid red;*/
+    display: flex;
+	justify-content: space-between;
+    flex-direction: row;
+
+
     padding: 1vw;
     text-align: center;
     margin-top:1vw;

@@ -1,35 +1,106 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <form method="post">
+    {% if level %}
+        <form method="post" action="/?level={{ level }}">
+    {% else %}
+        <form method="post">
+    {% endif %}
         {% csrf_token %}
     <div class="two-column">
-        <div class="chooseLevel">
-          <section class="demo">
-            <div class="box">
 
-              <h3>choose your level</h3>
-              <p>
-                <label for="Basic">
-                  <input id="Basic" name="yaydio" type="radio" value="Basic" onchange="checkvalue('Basic')" />
-                  <span>Basic level</span>
-                </label>
-              </p>
-              <p>
-                <label for="Intermediate">
-                  <input id="Intermediate" name="yaydio" type="radio" value="Intermediate" onchange="checkvalue('Intermediate')" />
-                  <span>Intermediate level</span>
-                </label>
-              </p>
-              <p>
-                <label for="Advanced">
-                  <input id="Advanced" name="yaydio" type="radio" value="Advanced" onchange="checkvalue('Advanced')"  />
-                  <span>Advanced level</span>
-                </label>
-              </p>
-            </div>
-          </section>
+        <div class="chooseLevel">
+
+            <section class="demo">
+                <div class="box">
+
+                  <h3>choose your level</h3>
+{#                    {{ level }}#}
+                    {% if level == "Basic"%}
+{#                        {{ level }}#}
+                      <p>
+                        <label for="Basic">
+                          <input id="Basic" name="yaydio" type="checkbox" value="Basic" onchange="checkvalue('Basic')" checked/>
+                          <span>Basic level</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label for="Intermediate">
+                          <input id="Intermediate" name="yaydio" type="checkbox" value="Intermediate" onchange="checkvalue('Intermediate')" />
+                          <span>Intermediate level</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label for="Advanced">
+                          <input id="Advanced" name="yaydio" type="checkbox" value="Advanced" onchange="checkvalue('Advanced')" />
+                          <span>Advanced level</span>
+                        </label>
+                      </p>
+                    {% elif level == "Intermediate" %}
+                        <p>
+                        <label for="Basic">
+                          <input id="Basic" name="yaydio" type="checkbox" value="Basic" onchange="checkvalue('Basic')"/>
+                          <span>Basic level</span>
+                        </label>
+                          </p>
+                        <p>
+                            <label for="Intermediate">
+                              <input id="Intermediate" name="yaydio" type="checkbox" value="Intermediate" onchange="checkvalue('Intermediate')" checked/>
+                              <span>Intermediate level</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label for="Advanced">
+                              <input id="Advanced" name="yaydio" type="checkbox" value="Advanced" onchange="checkvalue('Advanced')" />
+                              <span>Advanced level</span>
+                            </label>
+                        </p>
+                        {% elif level == "Advanced" %}
+                        <p>
+                        <label for="Basic">
+                          <input id="Basic" name="yaydio" type="checkbox" value="Basic" onchange="checkvalue('Basic')"/>
+                          <span>Basic level</span>
+                        </label>
+                          </p>
+                        <p>
+                            <label for="Intermediate">
+                              <input id="Intermediate" name="yaydio" type="checkbox" value="Intermediate" onchange="checkvalue('Intermediate')"/>
+                              <span>Intermediate level</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label for="Advanced">
+                              <input id="Advanced" name="yaydio" type="checkbox" value="Advanced" onchange="checkvalue('Advanced')" checked/>
+                              <span>Advanced level</span>
+                            </label>
+                        </p>
+                    {% else%}
+                        <p>
+                        <label for="Basic">
+                          <input id="Basic" name="yaydio" type="checkbox" value="Basic" onchange="checkvalue('Basic')"/>
+                          <span>Basic level</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label for="Intermediate">
+                          <input id="Intermediate" name="yaydio" type="checkbox" value="Intermediate" onchange="checkvalue('Intermediate')" />
+                          <span>Intermediate level</span>
+                        </label>
+                      </p>
+                      <p>
+                        <label for="Advanced">
+                          <input id="Advanced" name="yaydio" type="checkbox" value="Advanced" onchange="checkvalue('Advanced')" />
+                          <span>Advanced level</span>
+                        </label>
+                      </p>
+
+                    {% endif %}
+
+                </div>
+            </section>
+
         </div>
+
 
         <div>
             {% for sentence in sentences %}

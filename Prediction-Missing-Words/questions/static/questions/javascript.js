@@ -1,32 +1,39 @@
 function $(id){ return document.getElementById(id);}
 
-// var level = $(id)
-
+myStorage = window.sessionStorage;
 
 function checkvalue(id) {
     var inputValue = $(id);
     if(inputValue.value == "Basic"){
+        // inputValue.style.background-color = red;
+        // inputValue.style.backgroundColor =#444;
+        // inputValue.checked = true;
+        // document.getElementById("Basic").checked = true;
         window.location.href = "http://127.0.0.1:8000/?level=Basic"
-        inputValue.style.backgroundColor = "#5aa469";
-        inputValue.check()
-        inputValue.prop('checked',true);
+        // inputValue.checked = true;
+        document.getElementById("Basic").checked = true;
+        // inputValue.check()
+        // inputValue.prop('checked',true);
         // alert("hee")
+
+        sessionStorage.setItem('key', 'Basic');
+
     }
     else if(inputValue.value == "Intermediate"){
-        alert("2")
         window.location.href = "http://127.0.0.1:8000/?level=Intermediate"
-        console("sjj")
-        inputValue.check()
-        placeholder="Intermediate"
+        // inputValue.check()
+        // placeholder="Intermediate"
+        // inputValue.prop('checked',true);
+        sessionStorage.setItem('key', 'Intermediate');
     }
     else if(inputValue.value == "Advanced"){
-        // alert("3")
         window.location.href = "http://127.0.0.1:8000/?level=Advanced"
-        inputValue.prop('disabled',true);
+        // inputValue.prop('disabled',true);
+        // inputValue.prop('checked',true);
+        sessionStorage.setItem('key', 'Advanced');
     }
-    // else if(inputValue.value != ""){
-    //     inputValue.style.backgroundColor = "#d35d6e";
-    //     // display_unsuccess();
-    //
-    // }
+
 }
+
+document.getElementById(sessionStorage.getItem('key')).prop('checked',true);
+

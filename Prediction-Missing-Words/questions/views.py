@@ -32,18 +32,25 @@ class Index(View):
                         blank=blank,
                         user=request.user
                     )
-        return redirect('index')
+        if request.GET.get('level'):
+            return redirect("/?level="+request.GET.get('level'))
+        else:
+            return redirect("/")
+
 
     def get(self, request):
 
         if not request.user.is_authenticated:
             return redirect('login')
+
         level = request.GET.get('level')
-        # ?level=intermediate
+
+
         if level:
             sentences = Sentence.objects.filter(level=level).order_by(
                 '-created_at'
             )
+
         else:
             sentences = Sentence.objects.all().order_by(
                 '-created_at'
@@ -78,7 +85,8 @@ class Index(View):
             })
         return render(
             request, 'questions/index.html', {
-                'sentences': sentences_ctx
+                'sentences': sentences_ctx,
+                'level': level
             } 
         )
         
