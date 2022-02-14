@@ -5,7 +5,7 @@ Masked-Language Modeling With BERT
 
 BERT (Bidirectional Encoder Representations from Transformers) is a transformer-based method of learning language representations. It is a bidirectional transformer pre-trained model developed using a combination of two tasks namely: masked language modeling objective and next sentence prediction on a large corpus.
 
-Through Pytorch-transformers we can use Bert’s pre-trained language model for pridicting missing words. We can also finetune Bert’s pre-trained language model to fit our task and then use that model to gain some improvements.
+Through Pytorch-transformers we can use Bert’s pre-trained language model for predicting missing words. We can also finetune Bert’s pre-trained language model to fit our task and then use that model to gain some improvements.
 
 ## What is the purpose of this project?
 
