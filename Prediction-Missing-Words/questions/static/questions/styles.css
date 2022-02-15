@@ -77,7 +77,6 @@ h3 {
     width: 12vw;
 }
 .two-column{
-    /*border: 1px solid red;*/
     display: flex;
 	justify-content: space-between;
     flex-direction: row-reverse;
@@ -85,21 +84,14 @@ h3 {
     text-align: center;
     margin-top:1vw;
 }
-.two-column_{
-    /*border: 1px solid red;*/
-    display: flex;
-	justify-content: space-between;
+.row_dir{
     flex-direction: row;
-
-
-    padding: 1vw;
-    text-align: center;
-    margin-top:1vw;
 }
 .text{
     text-align: center;
 }
 
 .chooseLevel{
-    width:50vw
+    /*border: 1vw solid red;*/
+    width:50vw;
 }

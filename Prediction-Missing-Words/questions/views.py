@@ -64,7 +64,7 @@ class Index(View):
                 sub = Submission.objects.filter(
                     user=request.user,
                     blank = blank
-                )
+                ).first()
 
                 blank_data.append({
                     'id': blank.id,

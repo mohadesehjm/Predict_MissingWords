@@ -1,45 +1,35 @@
 {
  "sentences": [
   {
-   "text": "A bovid is any member of almost 140 species of ungulates  to the family Bovidae. The bovids  the largest family of hoofed mammals and  native to Africa, Europe, Asia, and North America. Members  antelope, bison, buffalo, cattle, sheep and goats. Bovids  mutually beneficial symbiotic relationships with bacteria and other microorganisms that allow the digestion of cellulose, the most abundant form of living terrestrial biomass, but one that is indigestible for many animals,  humans.\n",
+   "text": "A bovid is any member of almost 140 species of ungulates  to the family Bovidae. The bovids are the largest family of hoofed mammals and are native to Africa, Europe, Asia, and North America. Members  antelope, bison, buffalo, cattle, sheep and goats. Bovids  mutually beneficial symbiotic relationships with bacteria and other microorganisms that allow the digestion of cellulose, the most abundant form of living terrestrial biomass, but one that is indigestible for many animals,  humans.\n",
    "level": "Basic",
    "blank": [
     {
      "correct": "belonging",
      "pos": 57,
      "words": [
-      "belonging",
       "belong",
+      "belonging",
       "assigned",
       "belongs"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 101,
-     "words": [
-      "are",
-      "comprise",
-      "form",
-      "constitute"
      ]
     },
     {
      "correct": "include",
      "pos": 209,
      "words": [
-      "include",
+      "included",
       "are",
       "includes",
-      "included"
+      "include"
      ]
     },
     {
      "correct": "have",
      "pos": 275,
      "words": [
-      "form",
       "have",
+      "form",
       "maintain",
       "develop"
      ]
@@ -48,45 +38,25 @@
      "correct": "including",
      "pos": 503,
      "words": [
-      "including",
-      "especially",
       "particularly",
+      "especially",
+      "including",
       "notably"
      ]
     }
    ]
   },
   {
-   "text": "Bovids  not so common in endemic insular faunas and  mainly recorded in Southeast Asia, Japan and some Mediterranean islands. Ely the late Miocene, the bovids rapidly ,  to the creation of 70 new genera. This late Miocene radiation  partly because most bovids became adapted to more open, grassland habitats. Some species of bovid  solitary, but others  in large groups with complex social structures.\n",
+   "text": "Bovids are not so common in endemic insular faunas and are mainly recorded in Southeast Asia, Japan and some Mediterranean islands. Ely the late Miocene, the bovids rapidly ,  to the creation of 70 new genera. This late Miocene radiation was partly because most bovids became adapted to more open, grassland habitats. Some species of bovid are solitary, but others  in large groups with complex social structures.\n",
    "level": "Basic",
    "blank": [
-    {
-     "correct": "are",
-     "pos": 7,
-     "words": [
-      "are",
-      "were",
-      "is",
-      "seem"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 7,
-     "words": [
-      "are",
-      "were",
-      "is",
-      "seem"
-     ]
-    },
     {
      "correct": "diversified",
      "pos": 173,
      "words": [
-      "evolved",
-      "expanded",
       "diversified",
+      "expanded",
+      "evolved",
       "increased"
      ]
     },
@@ -94,40 +64,20 @@
      "correct": "leading",
      "pos": 186,
      "words": [
-      "leading",
+      "due",
       "contributing",
       "led",
-      "due"
-     ]
-    },
-    {
-     "correct": "was",
-     "pos": 256,
-     "words": [
-      "was",
-      "is",
-      "occurred",
-      "happened"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 7,
-     "words": [
-      "are",
-      "were",
-      "is",
-      "seem"
+      "leading"
      ]
     },
     {
      "correct": "live",
      "pos": 383,
      "words": [
-      "live",
+      "gather",
       "occur",
       "are",
-      "gather"
+      "live"
      ]
     }
    ]
@@ -160,10 +110,10 @@
      "correct": "weigh",
      "pos": 281,
      "words": [
-      "weigh",
+      "weighed",
       "be",
       "reach",
-      "weighed"
+      "weigh"
      ]
     },
     {
@@ -171,65 +121,25 @@
      "pos": 310,
      "words": [
       "is",
-      "stands",
       "measures",
+      "stands",
       "reaches"
      ]
     }
    ]
   },
   {
-   "text": "Despite differences in size and appearance, bovids  united by the possession of certain common features. Being ruminants, the stomach is  of four chambers: the rumen (80%), the omasum, the reticulum, and the abomasum. Bovids retain undigested food in their stomachs to be regurgitated and chewed again as necessary Bovids  almost exclusively herbivorous. Most bovids bear 30 to 32 teeth. While the upper incisors  absent, the upper canines  either  or absent. Instead of the upper incisors, bovids  a thick and tough layer of tissue,  the dental pad, which  a surface to grip grasses and foliage. All bovids  four toes on each foot\u2014they walk on the central two (the hooves), while the outer two (the dewclaws)  much smaller and rly  the ground. Bovid  vary in shape and size: the relatively simple  of a large Indian buffalo may  around 4m from  to  along the outer curve, while the various gazelles   with a variety of elegant curves.\n",
+   "text": "Despite differences in size and appearance, bovids are united by the possession of certain common features. Being ruminants, the stomach is  of four chambers: the rumen (80%), the omasum, the reticulum, and the abomasum. Bovids retain undigested food in their stomachs to be regurgitated and chewed again as necessary Bovids are almost exclusively herbivorous. Most bovids bear 30 to 32 teeth. While the upper incisors are absent, the upper canines are either  or absent. Instead of the upper incisors, bovids  a thick and tough layer of tissue,  the dental pad, which  a surface to grip grasses and foliage. All bovids  four toes on each foot\u2014they walk on the central two (the hooves), while the outer two (the dewclaws) are much smaller and rarely  the ground. Bovid  vary in shape and size: the relatively simple  of a large Indian buffalo may  around 4m from tip to tip along the outer curve, while the various gazelles   with a variety of elegant curves.\n",
    "level": "Basic",
    "blank": [
-    {
-     "correct": "are",
-     "pos": 51,
-     "words": [
-      "are",
-      "remain",
-      "were",
-      "become"
-     ]
-    },
     {
      "correct": "composed",
      "pos": 140,
      "words": [
-      "composed",
       "made",
+      "composed",
       "formed",
       "constructed"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 51,
-     "words": [
-      "are",
-      "remain",
-      "were",
-      "become"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 51,
-     "words": [
-      "are",
-      "remain",
-      "were",
-      "become"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 51,
-     "words": [
-      "are",
-      "remain",
-      "were",
-      "become"
      ]
     },
     {
@@ -246,9 +156,9 @@
      "correct": "have",
      "pos": 525,
      "words": [
-      "have",
-      "possess",
       "use",
+      "possess",
+      "have",
       "lack"
      ]
     },
@@ -256,9 +166,9 @@
      "correct": "called",
      "pos": 565,
      "words": [
-      "called",
-      "including",
       "termed",
+      "including",
+      "called",
       "dubbed"
      ]
     },
@@ -276,29 +186,19 @@
      "correct": "have",
      "pos": 525,
      "words": [
-      "have",
+      "lack",
       "possess",
       "use",
-      "lack"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 51,
-     "words": [
-      "are",
-      "remain",
-      "were",
-      "become"
+      "have"
      ]
     },
     {
      "correct": "touch",
      "pos": 787,
      "words": [
-      "touch",
-      "reach",
       "hit",
+      "reach",
+      "touch",
       "leave"
      ]
     },
@@ -306,8 +206,8 @@
      "correct": "horns",
      "pos": 811,
      "words": [
-      "horns",
       "##s",
+      "horns",
       "skulls",
       "ears"
      ]
@@ -323,58 +223,38 @@
      ]
     },
     {
-     "correct": "tip",
-     "pos": 922,
-     "words": [
-      "base",
-      "tip",
-      "root",
-      "snout"
-     ]
-    },
-    {
      "correct": "have",
      "pos": 525,
      "words": [
-      "have",
+      "lack",
       "possess",
       "use",
-      "lack"
+      "have"
      ]
     },
     {
      "correct": "horns",
      "pos": 811,
      "words": [
-      "horns",
-      "##s",
       "skulls",
+      "##s",
+      "horns",
       "ears"
      ]
     }
    ]
   },
   {
-   "text": "Bovids  the largest of 10 extant families within Artiodactyla,  of more than 140 extant and 300  species. Fossil evidence  five distinct subfamilies: Bovinae (bison, buffalos, cattle, and relatives). Antelope (addax, oryxes, roan antelopes and relatives), Caprinae (chamois, goats, sheep, and relatives), Cephalophinae (duikers), and Antilocapridae (pronghorn). Unlike most other bovids, Bovinae species  ail non-territorial. As the ancestors of the various species of domestic cattle, banteng, gaur, yak and water buffalo  generally r and endangered in the wild, while another ancestor, auroch,    in the wild for nearly 300 years.\n",
+   "text": "Bovids are the largest of 10 extant families within Artiodactyla,  of more than 140 extant and 300  species. Fossil evidence  five distinct subfamilies: Bovinae (bison, buffalos, cattle, and relatives). Antelope (addax, oryxes, roan antelopes and relatives), Caprinae (chamois, goats, sheep, and relatives), Cephalophinae (duikers), and Antilocapridae (pronghorn). Unlike most other bovids, Bovinae species are ail non-territorial. As the ancestors of the various species of domestic cattle, banteng, gaur, yak and water buffalo are generally rare and endangered in the wild, while another ancestor, auroch, has   in the wild for nearly 300 years.\n",
    "level": "Basic",
    "blank": [
-    {
-     "correct": "are",
-     "pos": 7,
-     "words": [
-      "are",
-      "form",
-      "comprise",
-      "constitute"
-     ]
-    },
     {
      "correct": "consisting",
      "pos": 66,
      "words": [
-      "consisting",
-      "composed",
       "out",
+      "composed",
+      "consisting",
       "one"
      ]
     },
@@ -382,49 +262,19 @@
      "correct": "suggests",
      "pos": 142,
      "words": [
-      "suggests",
+      "indicates",
       "supports",
       "shows",
-      "indicates"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 7,
-     "words": [
-      "are",
-      "form",
-      "comprise",
-      "constitute"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 7,
-     "words": [
-      "are",
-      "form",
-      "comprise",
-      "constitute"
-     ]
-    },
-    {
-     "correct": "has",
-     "pos": 633,
-     "words": [
-      "has",
-      "had",
-      "have",
-      "having"
+      "suggests"
      ]
     },
     {
      "correct": "been",
      "pos": 637,
      "words": [
-      "been",
-      "remained",
       "gone",
+      "remained",
+      "been",
       "become"
      ]
     },
@@ -441,15 +291,15 @@
    ]
   },
   {
-   "text": "Antelope is not a cladistic or taxonomically  group. The term is  to  all members of the family Bovidae that do not  under the category of , cattle, or goats. Not surprisingly for animals with long, slender yet powerful legs, many antelopes  long strides and can  fast. There  two main sub-groups of antelope: Hippotraginae, which  the oryx and the addax, and Antilopinae, which generally  slighter and more graceful animals such as gazelle and the springbok. The antelope is  in a wide range of habitats, typically , forest, savannah, grassland plains, and marshes. Several species of antelope   to  in the mountains and rocky outcrops and a couple of species of antelope  even semi-aquatic and these antelope  in swamps, for instance, the sitatunga  long, splayed hooves that  it to  freely and rapidly on swampy ground.\n",
+   "text": "Antelope is not a cladistic or taxonomically  group. The term is  to  all members of the family Bovidae that do not  under the category of , cattle, or goats. Not surprisingly for animals with long, slender yet powerful legs, many antelopes  long strides and can run fast. There are two main sub-groups of antelope: Hippotraginae, which  the oryx and the addax, and Antilopinae, which generally  slighter and more graceful animals such as gazelle and the springbok. The antelope is  in a wide range of habitats, typically , forest, savannah, grassland plains, and marshes. Several species of antelope   to  in the mountains and rocky outcrops and a couple of species of antelope are even semi-aquatic and these antelope  in swamps, for instance, the sitatunga has long, splayed hooves that  it to  freely and rapidly on swampy ground.\n",
    "level": "Basic",
    "blank": [
     {
      "correct": "defined",
      "pos": 45,
      "words": [
-      "defined",
       "distinct",
+      "defined",
       "recognized",
       "accepted"
      ]
@@ -458,10 +308,10 @@
      "correct": "used",
      "pos": 72,
      "words": [
-      "used",
+      "meant",
       "intended",
       "defined",
-      "meant"
+      "used"
      ]
     },
     {
@@ -469,57 +319,37 @@
      "pos": 80,
      "words": [
       "include",
-      "describe",
+      "mean",
       "encompass",
-      "mean"
+      "describe"
      ]
     },
     {
      "correct": "fall",
      "pos": 135,
      "words": [
-      "fall",
+      "falls",
       "come",
       "qualify",
-      "falls"
+      "fall"
      ]
     },
     {
      "correct": "have",
      "pos": 264,
      "words": [
-      "have",
-      "possess",
       "make",
+      "possess",
+      "have",
       "exhibit"
-     ]
-    },
-    {
-     "correct": "run",
-     "pos": 290,
-     "words": [
-      "move",
-      "run",
-      "walk",
-      "be"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 306,
-     "words": [
-      "are",
-      "were",
-      "is",
-      "exist"
      ]
     },
     {
      "correct": "includes",
      "pos": 364,
      "words": [
-      "contains",
       "includes",
+      "contains",
       "contain",
       "comprises"
      ]
@@ -530,17 +360,17 @@
      "words": [
       "includes",
       "include",
-      "contains",
-      "exclude"
+      "exclude",
+      "contains"
      ]
     },
     {
      "correct": "found",
      "pos": 525,
      "words": [
-      "found",
-      "distributed",
       "common",
+      "distributed",
+      "found",
       "present"
      ]
     },
@@ -558,8 +388,8 @@
      "correct": "have",
      "pos": 264,
      "words": [
-      "have",
       "possess",
+      "have",
       "make",
       "exhibit"
      ]
@@ -578,40 +408,20 @@
      "correct": "living",
      "pos": 673,
      "words": [
-      "living",
+      "habitat",
       "life",
       "habitats",
-      "habitat"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 306,
-     "words": [
-      "are",
-      "were",
-      "is",
-      "exist"
+      "living"
      ]
     },
     {
      "correct": "live",
      "pos": 793,
      "words": [
-      "live",
+      "survive",
       "thrive",
       "lives",
-      "survive"
-     ]
-    },
-    {
-     "correct": "has",
-     "pos": 837,
-     "words": [
-      "has",
-      "have",
-      "with",
-      "possesses"
+      "live"
      ]
     },
     {
@@ -619,9 +429,9 @@
      "pos": 867,
      "words": [
       "allow",
-      "enable",
+      "permit",
       "allows",
-      "permit"
+      "enable"
      ]
     },
     {
@@ -637,56 +447,36 @@
    ]
   },
   {
-   "text": "Subfamily Caprinae  of mostly medium-sized bovids. Its members  commonly  to as the sheep and the goat, together with various relatives such as the goral and the tahr. The group  not  its greatest diversity until the recent ice ages, when many of its members  specialised for marginal, often extreme, environments: mountains, deserts, and the subarctic region. Barbary and bighorn sheep    in arid deserts, while Rocky Mountain sheep survive high up in mountains and musk oxen in arctic tundra.\n",
+   "text": "Subfamily Caprinae  of mostly medium-sized bovids. Its members are commonly  to as the sheep and the goat, together with various relatives such as the goral and the tahr. The group did not  its greatest diversity until the recent ice ages, when many of its members  specialised for marginal, often extreme, environments: mountains, deserts, and the subarctic region. Barbary and bighorn sheep    in arid deserts, while Rocky Mountain sheep survive high up in mountains and musk oxen in arctic tundra.\n",
    "level": "Basic",
    "blank": [
     {
      "correct": "consists",
      "pos": 19,
      "words": [
-      "consists",
-      "consist",
       "consisted",
+      "consist",
+      "consists",
       "is"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 71,
-     "words": [
-      "are",
-      "were",
-      "is",
-      "include"
      ]
     },
     {
      "correct": "referred",
      "pos": 84,
      "words": [
-      "referred",
-      "refer",
       "refers",
+      "refer",
+      "referred",
       "referenced"
-     ]
-    },
-    {
-     "correct": "did",
-     "pos": 197,
-     "words": [
-      "did",
-      "would",
-      "does",
-      "could"
      ]
     },
     {
      "correct": "reach",
      "pos": 205,
      "words": [
-      "reach",
-      "attain",
       "achieve",
+      "attain",
+      "reach",
       "gain"
      ]
     },
@@ -704,8 +494,8 @@
      "correct": "have",
      "pos": 420,
      "words": [
-      "have",
       "had",
+      "have",
       "has",
       "can"
      ]
@@ -714,8 +504,8 @@
      "correct": "been",
      "pos": 425,
      "words": [
-      "been",
       "become",
+      "been",
       "remained",
       "also"
      ]
@@ -724,44 +514,34 @@
      "correct": "found",
      "pos": 430,
      "words": [
-      "found",
-      "recorded",
       "observed",
+      "recorded",
+      "found",
       "raised"
      ]
     }
    ]
   },
   {
-   "text": "The duiker,  to Cephalophinae sub-family is a small to medium-sized species, brown in colour, and native to sub-Saharan Africa. Duikers  primarily browsers rather than grazers,  leaves, shoots, seeds, fruit buds and bark. Some duikers  insects and carrion (dead animal carcasses) from time to time and even  to  rodents or small birds.\n",
+   "text": "The duiker,  to Cephalophinae sub-family is a small to medium-sized species, brown in colour, and native to sub-Saharan Africa. Duikers are primarily browsers rather than grazers,  leaves, shoots, seeds, fruit buds and bark. Some duikers  insects and carrion (dead animal carcasses) from time to time and even  to  rodents or small birds.\n",
    "level": "Basic",
    "blank": [
     {
      "correct": "belonging",
      "pos": 12,
      "words": [
-      "belonging",
       "belongs",
+      "belonging",
       "belong",
       "according"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 145,
-     "words": [
-      "are",
-      "were",
-      "is",
-      "become"
      ]
     },
     {
      "correct": "eating",
      "pos": 189,
      "words": [
-      "consuming",
       "eating",
+      "consuming",
       "taking",
       "on"
      ]
@@ -772,17 +552,17 @@
      "words": [
       "eat",
       "catch",
-      "consume",
-      "capture"
+      "capture",
+      "consume"
      ]
     },
     {
      "correct": "manage",
      "pos": 332,
      "words": [
-      "attempt",
-      "try",
       "manage",
+      "try",
+      "attempt",
       "occasionally"
      ]
     },
@@ -791,25 +571,25 @@
      "pos": 342,
      "words": [
       "eat",
-      "capture",
       "consume",
+      "capture",
       "catch"
      ]
     }
    ]
   },
   {
-   "text": "The pronghorn is the only living member of the sub-family Antilocapridae in North America. Each \"horn\" of the pronghorn is  of a slender, laterally  blade of bone that grows from the frontal bones of the skull,  a permanent core. Unlike the horns of the family Bovidae, the horn sheaths of the pronghorn  branched, each sheath possessing a forward-pointing tine ( the name pronghorn). The pronghorn is the fastest land mammal in the Western Hemisphere,  built for maximum predator evasion through running. Additionally, pronghorn hooves  two long, cushioned,  toes which   shock when running at high speeds.\n",
+   "text": "The pronghorn is the only living member of the sub-family Antilocapridae in North America. Each \"horn\" of the pronghorn is  of a slender, laterally  blade of bone that grows from the frontal bones of the skull,  a permanent core. Unlike the horns of the family Bovidae, the horn sheaths of the pronghorn are branched, each sheath possessing a forward-pointing tine ( the name pronghorn). The pronghorn is the fastest land mammal in the Western Hemisphere,  built for maximum predator evasion through running. Additionally, pronghorn hooves  two long, cushioned,  toes which   shock when running at high speeds.\n",
    "level": "Basic",
    "blank": [
     {
      "correct": "composed",
      "pos": 123,
      "words": [
-      "composed",
+      "consisting",
       "made",
       "part",
-      "consisting"
+      "composed"
      ]
     },
     {
@@ -817,8 +597,8 @@
      "pos": 156,
      "words": [
       "compressed",
-      "flattened",
       "oriented",
+      "flattened",
       "curved"
      ]
     },
@@ -826,29 +606,19 @@
      "correct": "forming",
      "pos": 228,
      "words": [
-      "forming",
       "creating",
+      "forming",
       "providing",
       "producing"
-     ]
-    },
-    {
-     "correct": "are",
-     "pos": 328,
-     "words": [
-      "are",
-      "have",
-      "were",
-      "is"
      ]
     },
     {
      "correct": "hence",
      "pos": 390,
      "words": [
-      "hence",
-      "thus",
       "earning",
+      "thus",
+      "hence",
       "therefore"
      ]
     },
@@ -856,8 +626,8 @@
      "correct": "being",
      "pos": 485,
      "words": [
-      "being",
       "and",
+      "being",
       "specifically",
       "fully"
      ]
@@ -876,9 +646,9 @@
      "correct": "pointed",
      "pos": 600,
      "words": [
-      "pointed",
-      "curved",
       "flexible",
+      "curved",
+      "pointed",
       "slender"
      ]
     },
@@ -886,8 +656,8 @@
      "correct": "help",
      "pos": 619,
      "words": [
-      "can",
       "help",
+      "can",
       "also",
       "will"
      ]
@@ -896,10 +666,10 @@
      "correct": "absorb",
      "pos": 624,
      "words": [
-      "absorb",
+      "against",
       "withstand",
       "resist",
-      "against"
+      "absorb"
      ]
     }
    ]
@@ -912,20 +682,20 @@
      "correct": "allow",
      "pos": 368,
      "words": [
-      "promote",
+      "allow",
       "facilitate",
       "control",
-      "allow"
+      "promote"
      ]
     },
     {
      "correct": "living",
      "pos": 428,
      "words": [
-      "their",
-      "the",
       "all",
-      "living"
+      "the",
+      "living",
+      "their"
      ]
     }
    ]
@@ -938,8 +708,8 @@
      "correct": "became",
      "pos": 287,
      "words": [
-      "have",
       "became",
+      "have",
       "had",
       "were"
      ]
@@ -954,8 +724,8 @@
      "correct": "united",
      "pos": 55,
      "words": [
-      "characterized",
       "united",
+      "characterized",
       "distinguished",
       "characterised"
      ]
@@ -964,9 +734,9 @@
      "correct": "Being",
      "pos": 108,
      "words": [
-      "like",
-      "in",
       "Being",
+      "in",
+      "like",
       "for"
      ]
     },
@@ -1004,10 +774,10 @@
      "correct": "walk",
      "pos": 686,
      "words": [
-      "rest",
+      "sit",
       "stand",
-      "walk",
-      "sit"
+      "rest",
+      "walk"
      ]
     }
    ]
@@ -1020,10 +790,10 @@
      "correct": "endangered",
      "pos": 577,
      "words": [
-      "endangered",
+      "absent",
       "extinct",
       "rare",
-      "absent"
+      "endangered"
      ]
     }
    ]
@@ -1036,9 +806,9 @@
      "correct": "survive",
      "pos": 480,
      "words": [
+      "are",
       "live",
       "survive",
-      "are",
       "occur"
      ]
     }
@@ -1062,18 +832,18 @@
      "correct": "possessing",
      "pos": 354,
      "words": [
-      "being",
       "having",
+      "possessing",
       "containing",
-      "possessing"
+      "being"
      ]
     },
     {
      "correct": "built",
      "pos": 491,
      "words": [
-      "responsible",
       "built",
+      "responsible",
       "adapted",
       "designed"
      ]
@@ -1088,9 +858,9 @@
      "correct": "recorded",
      "pos": 66,
      "words": [
-      "recorded",
-      "found",
       "present",
+      "found",
+      "recorded",
       "distributed",
       "concentrated"
      ]
@@ -1105,9 +875,9 @@
      "correct": "branched",
      "pos": 332,
      "words": [
-      "flexible",
       "short",
       "branched",
+      "flexible",
       "long",
       "simple"
      ]
@@ -1122,10 +892,20 @@
      "correct": "running",
      "pos": 534,
      "words": [
-      "terrain",
+      "running",
       "water",
       "land",
-      "running"
+      "terrain"
+     ]
+    },
+    {
+     "correct": "running",
+     "pos": 534,
+     "words": [
+      "water",
+      "running",
+      "land",
+      "terrain"
      ]
     }
    ]
@@ -1138,10 +918,10 @@
      "correct": "antelope",
      "pos": 254,
      "words": [
-      "group",
       "'",
+      "antelope",
       "type",
-      "antelope"
+      "group"
      ]
     }
    ]
@@ -1170,10 +950,10 @@
      "correct": "cushioned",
      "pos": 589,
      "words": [
-      "thin",
+      "cushioned",
       "slender",
       "narrow",
-      "cushioned"
+      "thin"
      ]
     }
    ]
