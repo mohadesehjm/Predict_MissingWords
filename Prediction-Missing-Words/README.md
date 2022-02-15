@@ -9,8 +9,9 @@ To install the project, run the following commands:
 # create and activate a virtual environment
 $ pip install -r requirements.txt
 $ python manage.py runserver
-```
+
 And then go to http://localhost:8000/.  
+```
 
 # Load data
 
@@ -20,10 +21,10 @@ Load generated data from the algorithm to the django database using loaddata.p m
 ```
 python3 manage.py createsuperuser
 ```
-And you can go to http://127.0.0.1:8000/admin/ to login.
+And you can go to http://localhost:8000/admin/ to login.
 
 # login
-http://127.0.0.1:8000/accounts/login/
+http://localhost:8000/accounts/login/
 
 # register
-http://127.0.0.1:8000/accounts/register/
+http://localhost:8000/accounts/register/
