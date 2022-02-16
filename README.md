@@ -13,7 +13,8 @@ In this project, I recognized verbs in sentences and then other verbs were predi
 
 e.g.
 
-![sample](https://user-images.githubusercontent.com/38848389/151368278-3095933e-628f-4d90-bad0-20c960adbc98.jpg)
+
+<img width="1680" alt="sample" src="https://user-images.githubusercontent.com/38848389/154335044-dccf060f-6d7c-4783-86a2-23e9b1053c42.png">
 
 
 
